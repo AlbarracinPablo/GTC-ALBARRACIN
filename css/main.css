@@ -67,6 +67,10 @@ section p {
   color: black;
   padding: 4px 20px; }
 
+.card-title {
+  margin-bottom: 0.5rem;
+  text-align: center; }
+
 .contentCard {
   display: flex;
   flex-direction: row;
@@ -103,7 +107,11 @@ section p {
         cursor: pointer; }
 
 .links {
-  color: black; }
+  color: white;
+  text-decoration: none; }
+  .links:hover {
+    color: #f6921e;
+    cursor: pointer; }
 
 .btn-primary, .border-rounded {
   background-color: #e02927;
